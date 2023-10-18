@@ -155,7 +155,7 @@
         <sites>
             <site name="WebFormsTestApp" id="1">
                 <application path="/" applicationPool="Clr4IntegratedAppPool">
-                    <virtualDirectory path="/" physicalPath="C:\git\ProfilerNgenCrash\WebFormsTestApp" />
+                    <virtualDirectory path="/" physicalPath="{BaseDirectory}\WebFormsTestApp" />
                 </application>
                 <bindings>
                     <binding protocol="http" bindingInformation="*:64029:localhost" />
